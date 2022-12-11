@@ -1,0 +1,44 @@
+.row{
+    border: 1px solid lightgray;
+    display: flex;
+    padding: 15px;
+}
+
+.show_sep{
+    border-right: 1px solid lightgray;
+}
+
+.row td{
+    min-width: 200px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+.header_Col{
+    display: flex;
+    justify-content: space-between;
+}
+
+.drop{
+    position: relative;
+}
+
+.sorter{
+    position: absolute;
+    right: 0px;
+    top: 150%;
+    background-color: white;
+    width: 150px;
+    box-shadow: 0px 0px 2px 0px gray;
+    border-radius: 3px;
+}
+
+.sorter div:hover{
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: aliceblue;
+}
+
+.sorter div{
+    padding: 10px 30px;
+}
